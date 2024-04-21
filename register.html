@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Your E-Commerce Website</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/03553a7a9c.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color:rgba(247, 14, 247, 0.363);
+         
+            
+        }
+      
+       
+
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            background-color: rgba(246, 54, 246, 0.793);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border-radius: 15px;
+
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            
+            text-align: center;
+            margin-top: 10px;
+          
+        }
+        h2{
+            text-align: center;
+
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+
+        <img width="70"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRNun_RTiEFB4uv_1oHztOmQQe7YnBsz0y1Q&usqp=CAU"
+            alt="">
+        <div class="search">
+
+            <input type="text" placeholder=" search here" name="search" id="yes">
+            <a href="offline.html"> <i class="fa fa-search"></i></a>
+
+
+        </div>
+
+
+        <div class="nav">
+            <ul>
+
+                <li><a class="home" href="newproject.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="cart.html">cart</a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="box">
+
+
+    <form>
+        <h2>login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <button type="submit" onclick="alert('you are not register, please creat you account')">login</button>
+        <a href="register.html"><p>create account</p></a> 
+    </form>
+ 
+</div>
+</body>
+
+</html>
